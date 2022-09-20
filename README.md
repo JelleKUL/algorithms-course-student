@@ -5,19 +5,19 @@ The working files for the Algorithms course taught at the KU Leuven
 
 ### Python
 
-This courses is written in Python, so you will need to check if your computer already has a python installation or download the latest version from the website: 
+This courses is aimed at teaching you how to develop in Python, so you will need to check if your computer already has a python installation or download the latest version from the website: 
 
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ### Visual studio code
 
-Unless you like to type out every character and have no Idea if what you're doing is correct, you will want a code editor. Programs like these provide very useful features like code completion, error checking and code running. We recommend you use [Visual Studio Code](https://code.visualstudio.com/) which can be installed from here: 
+Unless you like to type out every character and have no Idea if what you're doing is correct, you will want a code editor. Programs like these provide very useful features like code completion, error checking and code running. We recommend you use [Visual Studio Code](https://code.visualstudio.com/) which can be installed from here, if you haven't already: 
 
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ### Git
 
-To get the files on your computer, we will use [Git](https://en.wikipedia.org/wiki/Git). Which can be installed via the official website:
+To get the files on your computer, we will use [Git](https://en.wikipedia.org/wiki/Git). Which can be installed via the official website if you haven't already:
 
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
@@ -79,9 +79,10 @@ But you don't want to do that right now, so if you did, reactivate it.
 
 Python is a great coding language, but it can't do everything. Luckily the community has been developing extra code for other to use. These are in the form of `Packages` and they are stored on the Python Package Index or [PyPI](https://pypi.org/).
 
-For example, one of the most popular packages you will need is called `numpy`, which can be installed through the terminal window:
+For example, one of the most popular packages you will need is called [numpy](https://pypi.org/project/numpy/), which can be installed through the terminal window:
 
 ``` bash
+# use 'pip instal "package-name"' to instal any package in the PyPI registry
 > pip install numpy
 ``` 
 
