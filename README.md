@@ -86,7 +86,14 @@ For example, one of the most popular packages you will need is called [numpy](ht
 > pip install numpy
 ``` 
 
-other packages can be installed in a similar manner.
+Other packages can be installed in a similar manner.
+
+All packages needed for this course are referenced in the requirements.txt file. This makes it very easy to install all of them with a single command:
+
+``` bash
+# use 'pip instal -r "file name"' to install all the packages listed in that file
+> pip install -r requirements.txt
+``` 
 
 
 ## Start Coding
