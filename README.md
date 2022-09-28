@@ -55,7 +55,7 @@ A virtual environment will create a new folder inside the project containing all
 # Create the virtual environment
 > python3 -m venv env
 # Activate the virtual environment
-> ./env/Scrpits/activate
+> ./env/Scripts/activate
 ```
 
 #### Linux/MacOS
