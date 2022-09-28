@@ -5,7 +5,7 @@ The working files for the Algorithms course taught at the KU Leuven
 
 ### Python
 
-This courses is aimed at teaching you how to develop in Python, so you will need to check if your computer already has a python installation or download the latest version from the website: 
+This courses is aimed at teaching you how to develop in Python, so you will need to check if your computer already has a python 3.9 installation or download version 3.9 from the website: 
 
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
@@ -22,9 +22,18 @@ To get the files on your computer, we will use [Git](https://en.wikipedia.org/wi
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 
+
 ## Cloning the project folder on your machine
 
-After you have installed both Python and Git, it is time to get the files on your folder. This can be done through a command line interface: **Terminal** (Linux or MacOS) or **Command Prompt** (Windows).
+After you have installed both Python and Git, it is time to get the files on your folder. 
+
+### Using VS Code
+
+Vs code has build in Git features to get you up and running.
+
+### Using the CLI
+
+This can be done through a  CLI or command line interface: **Terminal** (Linux or MacOS) or **Command Prompt** (Windows).
 
 1. Open a  new command line window
 2. Navigate to your destination folder using:
