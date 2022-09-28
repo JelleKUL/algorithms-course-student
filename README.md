@@ -82,7 +82,7 @@ Python is a great coding language, but it can't do everything. Luckily the commu
 For example, one of the most popular packages you will need is called [numpy](https://pypi.org/project/numpy/), which can be installed through the terminal window:
 
 ``` bash
-# use 'pip instal "package-name"' to instal any package in the PyPI registry
+# use 'pip install "package-name"' to install any package in the PyPI registry
 > pip install numpy
 ``` 
 
