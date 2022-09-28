@@ -1,5 +1,5 @@
 # algorithms-course-student
-The working files for the Algorithms course taught at the KU Leuven
+The working files for the Algorithms course taught at the KU Leuven. This file will go over all the steps to properly install the programs and files.
 
 ## 1. Getting Started
 
@@ -29,7 +29,7 @@ To get the files on your computer, we will use [Git](https://en.wikipedia.org/wi
 
 
 
-## Cloning the project folder on your machine
+## 2. Cloning the project folder on your machine
 
 After you have installed both Python and Git, it is time to get the files on your folder. This can be done in a number of ways, but we recommend using Git to *clone* the project onto your local machine. 
 
@@ -72,7 +72,7 @@ This can also be done through a  CLI or command line interface: **Terminal** (Li
 4. Open your folder in your code editor
 5. Proceed to *Setting up a virtual environment*
 
-## Setting up a virtual environment
+## 3. Setting up a virtual environment
 
 A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them. This is one of the most important tools that most of the Python developers use.
 
@@ -92,7 +92,7 @@ py -3.9 -m venv env
 ./env/Scripts/activate
 ```
 
-> **Script execution Error**
+> **Warning** **Script execution Error**
 > 
 > If you can't execute scripts you need to run the following command in the powershell as an administrator by:
 > 1) Search for `powershell` in the start menu.
@@ -105,7 +105,7 @@ py -3.9 -m venv env
 > 5) Confirm by typing `Y` in the window. 
 > 6) Try running the activate command again
 
-> **./env/Scripts/activate not found**
+> **Warning** **./env/Scripts/activate not found**
 >
 > If you computer can't find the file to activate the virtual environment, you probably working from the wrong folder.
 >   1) The folder listed in the terminal window after `PS` does not match the location of you working directory (should end with `algorithms-course-student`).
@@ -129,7 +129,7 @@ python3.9 -m venv env
 . env/bin/activate
 ```
 
-#### Check for success
+### Check for success
 
 Once you see <span style = "color:green">(env)</span> in the front of your terminal line, your envirinment is active and you can proceed to the next step.
 
@@ -145,7 +145,7 @@ But you don't want to do that right now, so if you did, reactivate it.
 
 
 
-## Installing Packages
+## 4. Installing Packages
 
 Python is a great coding language, but it can't do everything. Luckily the community has been developing extra code for other to use. These are in the form of `Packages` and they are stored on the Python Package Index or [PyPI](https://pypi.org/).
 
@@ -164,23 +164,23 @@ All packages needed for this course are referenced in the requirements.txt file.
 # use 'pip instal -r "file name"' to install all the packages listed in that file
 pip install -r requirements.txt
 ``` 
-> **Couldn't find a version of *** which qualifies ...**
+> **Warning** **Couldn't find a version of *** which qualifies ...**
 > 
 > This  means there are certain packages in the file that are not compatible with your python version.
 > If you encouter this, you will need to make a new `venv` end make sure you use the correct python version **(3.9)**
 
-> **Can't find requirements.txt**
+> **Warning** **Can't find requirements.txt**
 >
 > Make sure you see the `requirements.txt` file in your document outlier on the left side in vs code.
 > Try one of the following fixes:
 > 1) Check if your terminal is in the correct working folder: check [Windows](####-Windows) for more info.
 > 2) Copy the contents of the file from this github page and paste it in a new file with the same name in your working directory.
 
-## Start Coding
+## 5. Start Coding
 
 Open the first jupyter notebook file named `chapter1.ipynb` in `chapter1` and try to run the first code block.
 
-> **Running Failed**
+> **Warning** **Running Failed**
 >
 >If you get an error that there is no kernel selected or that certain packages are not installed:
 >1) Go to the top right corner where it either states `no kernel` or `python 3.**`
@@ -198,7 +198,7 @@ If you are able to sucessfully run the first code block, you are ready to start 
 Good luck!
 
 
-## Advanced: Keeping track of your changes
+## 6. Advanced: Keeping track of your changes
 
 If you would like to save your code, and all the changes you have ever made online, you can do so on Github.
 By `Forking` a project, you create a digital copy of the project where you can make whatever changes you like, check out the following tutorial to learn more:
