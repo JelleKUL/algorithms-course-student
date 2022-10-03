@@ -1,6 +1,9 @@
 # algorithms-course-student
 The working files for the Algorithms course taught at the KU Leuven. This file will go over all the steps to properly install the programs and files.
 
+## Video Tutorial
+[![Video tutorial](https://img.youtube.com/vi/XKifbXkIz3w/0.jpg)](https://www.youtube.com/watch?v=XKifbXkIz3w)
+
 ## 1. Getting Started
 
 This courses is aimed at teaching you how to develop in python. There are a number of programs you need to install before you can start programming.
