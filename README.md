@@ -200,8 +200,30 @@ If you are able to sucessfully run the first code block, you are ready to start 
 
 Good luck!
 
+## 6. Documentation
 
-## 6. Advanced: Keeping track of your changes
+Python and its packages contain a huge amount of functions. No one knows them all by heart, and you won't have to either. 
+You can use the pre-written documentation for python and each package during the exam. 
+It's a good idea to use them as much as possible during the lessons, so you understand how to navigate them.
+Here are the most common documentations you will need:
+
+- `python`: https://docs.python.org/3.9/
+    > basic syntax and functions
+- `numpy`: https://numpy.org/doc/stable/
+    > tools for working with arrays and matrices
+- `matplotlib`: https://matplotlib.org/stable/index.html
+    > tools for plotting
+- `scipy`: https://docs.scipy.org/doc/scipy/
+    > tools for more complex maths
+- `open3d`: http://www.open3d.org/docs/release/
+    > tools for interacting with 3D data (pointclouds, meshes,...)
+- `opencv`: https://docs.opencv.org/4.6.0/
+    > tools for interacting with images and computer vision
+- `pandas`: https://pandas.pydata.org/docs/
+    > tools for manupulating cvs and excel files
+
+
+## 7. Optional: Keeping track of your changes
 
 If you would like to save your code, and all the changes you have ever made online, you can do so on Github.
 By `Forking` a project, you create a digital copy of the project where you can make whatever changes you like, check out the following tutorial to learn more:
