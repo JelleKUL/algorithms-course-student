@@ -21,7 +21,7 @@ def  fit_2D_normal_distribution( data: np.array, factor: float ):
         e2: small axis of the ellipse [e2x e2y]
     """
 
-    [N,c] = len(data)
+    [N,c] = data.shape
     if (N < 2):
         print('Please specify at least 2 solutions in the data')
         return
@@ -29,21 +29,22 @@ def  fit_2D_normal_distribution( data: np.array, factor: float ):
         print('Number of columns in data should be 2')
         return
 
-    P = math.mean(data,0)
+    P = np.mean(data, axis=0)
     # compute PCA, using SVD
-    [_, S, V] = np.linalg.svd(data-np.ones(N,1)*P)
+    [_, S, V] = np.linalg.svd(data-np.ones((N,1)) @ np.array([P]))
+
     # compute actual sigmas from singular values
-    sigma_max = S[0,0]/math.sqrt((N-1))
-    sigma_min = S[1,1]/math.sqrt((N-1))
+    sigma_max = S[0]/math.sqrt((N-1))
+    sigma_min = S[1]/math.sqrt((N-1))
 
     # Compute e1 e2
     e1 = [V[0,0], V[1,0]]
     e2 = [V[0,1], V[1,1]]
 
     # First compute ellipse with x and y axis as main axes
-    theta = range(0, 0.01, 2 * math.pi)
-    x = factor * sigma_max * math.cos(theta)
-    y = factor * sigma_min * math.sin(theta)
+    theta = np.arange(0, 2 * math.pi, 0.01)
+    x = factor * sigma_max * np.cos(theta)
+    y = factor * sigma_min * np.sin(theta)
     # Now rotate to angles in V and move to P
     angle = math.atan2(V[1,0], V[0,0])
     co = math.cos(angle)
