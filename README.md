@@ -85,6 +85,11 @@ A virtual environment will create a new folder inside the project containing all
 Now that you have your project open in vs code, you can open up a new `Terminal` window from the toolbar  in the top left of your Visual Studio Code window and use the following commands to install and run your virtual environment:
 
 #### Windows:
+Windows does not support running scripts out of the box. To enable this, you will have to activate `Developer Mode` in your system settings and change the `Execution Policy` to allow local scripts to run.
+
+Go to `Settings -> Update & Security -> For Developers` to find these checkboxes.
+
+After that, you can proceed to run the following commands in the terminal:
 ``` bash
 # Create the virtual environment
 # "py" is the short hand for python, pointing to the python launcher
@@ -97,7 +102,7 @@ py -3.9 -m venv env
 
 > **Warning** **Script execution Error**
 > 
-> If you can't execute scripts you need to run the following command in the powershell as an administrator by:
+> If you still can't execute scripts you need to run the following command in the powershell as an administrator by:
 > 1) Search for `powershell` in the start menu.
 > 2) right-click the Windows PowerShell icon.
 > 3) select `run as administrator`
