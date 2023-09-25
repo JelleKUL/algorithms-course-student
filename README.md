@@ -7,18 +7,26 @@ The exercises will be made in [Google Colab](https://colab.google/), this means 
 
 ### Download The Files
 
-You can download all the files from this Github repository here:
+The supplementary files will be made available on Toledo, or can be downloaded in this repository.
 
 [DOWNLOAD ZIP](https://github.com/JelleKUL/algorithms-course-student/archive/refs/heads/main.zip)
 
 or from the big green button in the top-right of this repository.
 
-### Upload to Google Drive
-
-After you have dowloaded the `.zip` file, unzip it and upload it to your google drive in a folder of your choice. if you do not have an account, or enough space, please make a new google drive account [here](https://drive.google.com/).
-
 ### Open Google Colab
 
 go to [colab.research.google.com](https://colab.research.google.com/)
 
-[welcome.ipynb](https://colab.research.google.com/github/JelleKUL/algorithms-course-student/blob/main/welcome.ipynb)
+[Notebook Chapter1](https://colab.research.google.com/github/JelleKUL/algorithms-course-student/blob/main/chapter1/chapter1.ipynb)
+
+[Notebook Chapter2](https://colab.research.google.com/github/JelleKUL/algorithms-course-student/blob/main/chapter2/chapter2.ipynb)
+
+[Notebook Chapter3](https://colab.research.google.com/github/JelleKUL/algorithms-course-student/blob/main/chapter3/chapter3.ipynb)
+
+[Notebook Chapter4](https://colab.research.google.com/github/JelleKUL/algorithms-course-student/blob/main/chapter4/chapter4.ipynb)
+
+[Notebook Chapter5](https://colab.research.google.com/github/JelleKUL/algorithms-course-student/blob/main/chapter5/chapter5.ipynb)
+
+### Add the extra files
+
+Once you have opened the correct chapter and saved a local copy to your drive, you need to upload the downloaded files to your session, this can be done with the little folder icon on the left hand side of your window.
